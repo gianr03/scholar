@@ -97,5 +97,12 @@ public class Persona {
    
        System.out.println(this.nombre +" "+ this.apellido);
        
+ }
+   
+   public int calEdad(){
+   
+   return 10;
+       
    }
+   
 }
