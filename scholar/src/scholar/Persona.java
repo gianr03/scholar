@@ -1,10 +1,12 @@
 package scholar;
 
-public class Persona {
+
+
+public class Persona   {
 
     public String nombre;
     public String apellido;
-    public String fecha_nacimiento;
+    ;
     public String tipo_sangre;
     public String nacionalidad;
     public String identificacion;
@@ -27,14 +29,6 @@ public class Persona {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
-    }
-
-    public String getFecha_nacimiento() {
-        return fecha_nacimiento;
-    }
-
-    public void setFecha_nacimiento(String fecha_nacimiento) {
-        this.fecha_nacimiento = fecha_nacimiento;
     }
 
     public String getTipo_sangre() {
@@ -98,11 +92,10 @@ public class Persona {
        System.out.println(this.nombre +" "+ this.apellido);
        
  }
+
+ }
+        
+  
    
-   public int calEdad(){
-   
-   return 10;
-       
-   }
-   
-}
+
+

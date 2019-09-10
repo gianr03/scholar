@@ -1,20 +1,34 @@
 package scholar;
+
+import java.util.Scanner;
+
 public class Scholar {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
      
+   Scanner lectura=new Scanner(System.in);  
+     
+    int año_nacimiento;
+    int año_actual;
+    double edad;
+    
         Empleado empleado1 = new Empleado();
-        
+      
         empleado1.nombre="gian ";
         empleado1.apellido="roman ";
-        empleado1.fecha_nacimiento="2001-11-03";
-        empleado1.calEdad();
-        System.out.println("la edad es "+ empleado1.calEdad());
-   
         
+        System.out.println("digite año de nacimiento");
+        año_nacimiento=lectura.nextInt();
+        
+        System.out.println("digite año actual");
+        año_actual=lectura.nextInt();
+        
+        edad=año_actual-año_nacimiento;
+        
+        System.out.println("tu edad es "+edad);
+   
+       
         //System.out.println("el nombre del empleado es "+empleado1.nombre);
         //System.out.println("el apellido del empleado es "+empleado1.apellido);
         
@@ -35,4 +49,6 @@ public class Scholar {
         
     }
     
-}
+   
+    }
+
