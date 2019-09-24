@@ -8,7 +8,11 @@ public class Scholar {
     public static void main(String[] args) {
      
    Scanner lectura=new Scanner(System.in);  
-     
+   
+   Ventana v = new Ventana();
+   
+   v.setVisible(true);
+           
     int año_nacimiento;
     int año_actual;
     double edad;
