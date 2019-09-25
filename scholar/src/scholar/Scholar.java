@@ -12,6 +12,10 @@ public class Scholar {
    Ventana v = new Ventana();
    
    v.setVisible(true);
+   
+   Ventana2 v2 = new Ventana2();
+   
+   v2.setVisible(true);
            
     int año_nacimiento;
     int año_actual;
@@ -22,15 +26,15 @@ public class Scholar {
         empleado1.nombre="gian ";
         empleado1.apellido="roman ";
         
-        System.out.println("digite año de nacimiento");
-        año_nacimiento=lectura.nextInt();
+       // System.out.println("digite año de nacimiento");
+        //año_nacimiento=lectura.nextInt();
         
-        System.out.println("digite año actual");
-        año_actual=lectura.nextInt();
+        //System.out.println("digite año actual");
+        //año_actual=lectura.nextInt();
         
-        edad=año_actual-año_nacimiento;
+        //edad=año_actual-año_nacimiento;
         
-        System.out.println("tu edad es "+edad);
+        //System.out.println("tu edad es "+edad);
    
        
         //System.out.println("el nombre del empleado es "+empleado1.nombre);
